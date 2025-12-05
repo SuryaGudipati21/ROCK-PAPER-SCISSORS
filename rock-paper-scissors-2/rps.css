@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(25,25,25);
+    color: white;
+    font-family: Arial;
+}
+.title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.rps-result{
+    font-size: 30px;
+}
+.rps-score{
+    font-size: 25px;
+}
+.icon{
+    height: 70px;
+}
+.action{
+    border-radius: 100px;
+    padding: 30px;
+    margin: 10px;
+    background: none;
+    border: solid;
+    border-color: white;
+    border-width: 3.5px;
+    cursor: pointer;
+}
+.action:hover{
+    background-color: blue;
+    transition: all 0.3s;
+}
+.action:active{
+    background-color: white;
+}
+.choice{
+    height: 50px;
+}
+.reset-button{
+    margin-top: 20px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.rps-score{
+    text-decoration: none;
+    width: 170px;
+    padding-top: 7.5px;
+    padding-bottom: 8.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    height: 30px;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    border: none;
+}
+.rps-score:hover, .reset-button:hover{
+    background-color: green;
+    color: white;
+    transition: all 0.1s;
+}
+.rps-score:active, .reset-button:active{
+    background-color: white;
+    color: black;
+}

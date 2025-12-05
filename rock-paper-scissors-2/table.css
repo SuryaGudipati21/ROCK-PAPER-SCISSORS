@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(25,25,25);
+    color: white;
+    font-family: Arial;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 2px solid white ;
+    color: white ;
+    background: transparent ;
+    text-align: center;
+}
+.back-button{
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+    background-color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+.back-button:hover{
+    background-color: green;
+    color: white;
+    transition: all 0.1s;
+}
+.back-button:active{
+    background-color: white;
+    color: black;
+}

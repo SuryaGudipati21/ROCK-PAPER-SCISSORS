@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RESULTS PAGE</title>
+        <link rel="stylesheet" href="table.css">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Win</th>
+                <th>Tie</th>
+                <th>Lose</th>
+            </tr>
+            <tr>
+                <td id="wins"></td>
+                <td id="ties"></td>
+                <td id="losses"></td>
+            </tr>
+        </table>
+        <a class="back-button" href="Rock-Paper-Scissors2.html">Go Back</a>
+        <script>
+            const savedScore = JSON.parse(localStorage.getItem("score"));
+
+            if (savedScore) {
+                document.getElementById("wins").textContent = savedScore.win;
+                document.getElementById("losses").textContent = savedScore.lose;
+                document.getElementById("ties").textContent = savedScore.tie;
+            }
+           let a =1;
+        </script>
+    </body>
+</html>
