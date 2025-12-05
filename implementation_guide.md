@@ -21,6 +21,34 @@ This loads the **Rock-Paper-Scissors game page**.
 
 ---
 
+## Step 3 — View Results (Enhanced Version Only "rock-paper-scissors-2")
+If you are using the enhanced version, you can view saved totals:
+
+- Wins  
+- Losses  
+- Ties  
+
+Either by:
+
+- Clicking the **“View Results”** button  
+**or**  
+- Opening **results.html** manually
+
+This page reads your saved score using **localStorage**.
+
+---
+
+## Step 4 — Resetting Scores
+Click **Reset Score** to clear:
+
+- Win count  
+- Lose count  
+- Tie count  
+
+This also clears the saved data in **localStorage**.
+
+---
+
 ## Common Problems & Solutions
 
 ### Scores not showing in results page
